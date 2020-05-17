@@ -1,0 +1,59 @@
+// 设备屏幕宽度 : 设计稿宽度 =  设备的rem :  设计稿假设的rem(100)
+// 设备的rem = 设计稿假设的rem(100) *  屏幕宽度 /   设计稿宽度
+// 以后在 750的设计稿中 量出多少就 除以 100 
+
+
+
+//引入css重置文件
+@import "common";
+@import "fonts/iconfont.css";
+
+
+.box {
+    padding-bottom: 50px;
+    // background: #ffffff;
+}
+
+html,
+body,
+#app,
+.box {
+    width: 100vw;
+    height: 100vh;
+    //淘宝适配就要注释掉下面的
+    // font-size: calc(100vw/7.5);
+    // font-size: -webkit-calc(100vw/7.5);
+}
+
+//自定义所有页面的动画
+@keyframes enter {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes leave {
+    from {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+}
+
+.enter {
+    animation: enter .8s;
+}
+
+.leave {
+    animation: leave .4s;
+}

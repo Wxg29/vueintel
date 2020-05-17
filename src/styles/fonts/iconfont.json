@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "887964",
+      "name": "我的 (1)",
+      "font_class": "wode1",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "5121525",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "5736492",
+      "name": "科学技术-6",
+      "font_class": "kexuejishu-",
+      "unicode": "e995",
+      "unicode_decimal": 59797
+    },
+    {
+      "icon_id": "9466483",
+      "name": "shouye",
+      "font_class": "shouye",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
